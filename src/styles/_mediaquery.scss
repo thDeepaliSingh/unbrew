@@ -1,0 +1,27 @@
+@media(max-width: 700px) {
+    nav, .upper--footer{
+        padding-left: 1rem;
+        padding-right: 1rem;
+
+    }
+   
+    
+    .upper--footer{
+        flex-direction: column;
+        width: 100%;
+
+    }
+}
+
+@media(max-width: 1000px){
+    nav ul li{
+        display: none;
+        // background-color: aquamarine;
+    }
+
+    nav ul div.hm-bg{
+        display: block;
+        // background-color: aquamarine;
+        
+    }
+}
