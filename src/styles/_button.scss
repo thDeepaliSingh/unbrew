@@ -1,0 +1,30 @@
+.cta-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .1rem;
+    flex-direction: column;
+    border: none;
+    outline: none;
+    border-radius: 2rem 2rem 2rem 0;
+    color: #ffffff;
+    font-size: .9rem;
+    font-weight: 600;
+    cursor: pointer;
+
+    &:hover{
+        border-radius: 0 2rem 2rem 2rem;
+    }
+}
+
+.blue--btn{
+    background-color: #1fb6fc;
+}
+.purple--btn{
+    background-color: #bc6ff1;
+}
+
+
+
+
+

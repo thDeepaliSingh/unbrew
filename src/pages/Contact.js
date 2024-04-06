@@ -1,14 +1,13 @@
 import React from 'react'
 import Hero from '../componets/hero'
-import Button from "../componets/Button"
+import ContactC from "../componets/ContactC"
 
 const Contact = () => {
   return (
     <>
       <Hero text= "I am Contact's hero"/>
-
-
-
+      <ContactC />
+      
     </>
   )
 }

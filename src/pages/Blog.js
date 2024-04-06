@@ -1,5 +1,6 @@
 import React from 'react'
 import Hero from '../componets/hero'
+import Newsletter from '../componets/Newsletter'
 
 
 const Blog = () => {
@@ -9,7 +10,7 @@ const Blog = () => {
 
 
 
-
+      <Newsletter />
     </>
   )
 }
